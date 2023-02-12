@@ -186,3 +186,32 @@ p {
     display: block;
     width: 75%;
 }
+
+/* footer  */
+
+.foot-cont{
+    display:block;
+    justify-content: space-around;
+    background-color: aquamarine;
+    
+}
+
+.foot-item {
+    width: 100%;
+    margin: 0;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+
+.foot-top{
+    min-height: 100px;
+
+}
+.foot-body{
+    min-height: 200px;
+
+}
+.foot-bottom{
+    min-height: 200px;
+}
