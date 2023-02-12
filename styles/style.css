@@ -169,3 +169,77 @@ a:hover {
 .menu_promo .promo-clickable p {
 
 }
+
+
+
+/* body {
+    background-color: lightblue;
+} */
+
+/* main style */
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.banner-space {
+
+}
+.banner {
+    transform: translateX(-19%);
+    object-fit: cover;
+    display: block;
+    width: 160%;
+    position: relative;
+    z-index: 1;
+}
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.content-grid {
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: "Nunito";
+    background-color: #006341;
+    width: 100%;
+}
+
+.content-grid .content-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    word-spacing: 1px;
+    display: block;
+    text-align: left;
+}
+
+.content-media {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: aqua;
+}
+
+.content-content {
+    background-color: antiquewhite;
+    align-items: center;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20px;
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
